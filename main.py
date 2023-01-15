@@ -6,9 +6,9 @@ from PySide2.QtWidgets import *
 import sys
 import os
 
-from login import LoginWindow
-from logout import LogoutWindow
-from login_status_win import LoginStatusWindow
+from ui_login import LoginWindow
+from ui_logout import LogoutWindow
+from ui_login_status_win import LoginStatusWindow
 # from settings import SettingsWindow
 from core.app import QtSingleApplication
 from core.db import *
